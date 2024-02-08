@@ -4,8 +4,8 @@ window.sr = ScrollReveal();
 		duration: 2000, //tiempo
 		delay:200,
 		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+
+		distance: '150px' //distancia
 
 
 	}); 
@@ -105,14 +105,6 @@ sr.reveal('.imagen13', {
 
 	});
 
-	sr.reveal('.menu', {
-		duration: 1500, //tiempo
-		origin: 'bottom', //origen
-		distance: '-50px' //distancia
-
-
-	}); 
-
 
 	sr.reveal('.imagen4', {
 		duration: 1500, //tiempo
@@ -132,10 +124,4 @@ sr.reveal('.imagen13', {
 	}); 
 
 
-	sr.reveal('.table-responsive', {
-		duration: 1500, //tiempo
-		origin: 'bottom', //origen
-		distance: '-100px', //distancia
-		
 
-	});
