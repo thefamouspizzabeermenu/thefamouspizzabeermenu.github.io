@@ -13,7 +13,7 @@ window.sr = ScrollReveal();
 
 sr.reveal('.imagen2', {
 		duration: 2000, //tiempo
-		delay:200,
+		delay:3000,
 		origin: 'right', //origen
 		distance: '-100px', //distancia
 
@@ -22,7 +22,7 @@ sr.reveal('.imagen2', {
 
 sr.reveal('.imagen3', {
 		duration: 2000, //tiempo
-		delay:200,
+		delay:3000,
 		origin: 'top', //origen
 		distance: '-200px', //distancia
 
@@ -31,7 +31,7 @@ sr.reveal('.imagen33', {
 		duration: 2000, //tiempo
 		delay:500,
 		origin: 'top', //origen
-		distance: '-200px', //distancia
+		distance: '-100px', //distancia
 
 	});
 sr.reveal('.imagen22', {
@@ -89,7 +89,15 @@ sr.reveal('.menuDigital', {
 		distance: '-0' //distancia
 
 
-	}); 
+	});
+	sr.reveal('.table', {
+	duration: 3000, //tiempo
+		delay:800,
+		origin: 'top', //origen
+		distance: '300px' //distancia
+
+
+	});  
 sr.reveal('.imagen10', {
 		rotate: {
         x: 100,
