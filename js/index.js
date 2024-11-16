@@ -27,10 +27,23 @@ sr.reveal('.imagen3', {
 		distance: '-200px', //distancia
 
 	});
+sr.reveal('.imagen33', {
+		duration: 2000, //tiempo
+		delay:500,
+		origin: 'top', //origen
+		distance: '-200px', //distancia
 
+	});
+sr.reveal('.imagen22', {
+		duration: 2000, //tiempo
+		delay:200,
+		origin: 'bottom', //origen
+		distance: '-200px', //distancia
 
+	});
 sr.reveal('.imagen4', {
 		duration: 2000, //tiempo
+		delay:500,
 		origin: 'right', //origen
 		distance: '-100px', //distancia
 
@@ -58,10 +71,19 @@ sr.reveal('.imagen7', {
 
 
 	}); 
-
 sr.reveal('.imagen8', {
 		duration: 2000, //tiempo
-		delay:300,
+		delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+
+sr.reveal('.menuDigital', {
+		duration: 2000, //tiempo
+		delay:800,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -69,9 +91,17 @@ sr.reveal('.imagen8', {
 
 	}); 
 sr.reveal('.imagen10', {
+		rotate: {
+        x: 100,
+        z: 100
+    },
 		duration: 2000, //tiempo
-		origin: 'right', //origen
-		distance: '-100px', //distancia
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
 
 	});
 sr.reveal('.imagen9', {
