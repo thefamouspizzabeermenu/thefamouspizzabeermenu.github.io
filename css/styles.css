@@ -51,9 +51,7 @@ div.container-fluid{
 .imagen0{
   box-shadow: 0 0 20px gray;
 }
-.imagen3{
-  margin-left: -30px;
-}
+
 .imagen5{
   margin-left: -29px;
 }
@@ -72,7 +70,7 @@ position: center;
 
 }
 .menuDigital{
-  margin-top: -150px;
+  margin-top: -280px;
   letter-spacing: 3px;
 }
 .titulo{
@@ -187,7 +185,7 @@ margin-top: 0px;
     -ms-filter:"alpha(opacity=100)";
 }
 .pie{
-  background: #1A6286;
+  background: #323232;
   border-top: solid 1px white;
   margin-bottom: 0px;
   font-size: 1.1rem;
@@ -206,7 +204,7 @@ margin-top: 0px;
  font-family: 'Concert One', sans-serif;
 
 }
-.center{display:table;width:100%;background-color: #1A6286;
+.center{display:table;width:100%;background-color: #323232;
 margin-top:-25px;
 margin-bottom:;}
 #social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
@@ -229,4 +227,153 @@ margin-bottom:;}
   height: 100vh;
   font-size: 500%;
   color: #00407d;
+}
+
+
+.portada{
+  height: 750px;
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+.pagina1{
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/pagina1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+.pagina2{
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/pagina2.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+.pagina3{
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/pagina3.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+.pagina4{
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/pagina4.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+.pagina5{
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/pagina5.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+} 
+.pagina6{
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/pagina6.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+.pagina7{
+  height: 750px;
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+  background-image: url(../img/pagina7.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+@media (min-width: 1200px) { /*laptop*/
+.portada{
+  height: 750px;
+background-size: 37%;
+ background-repeat: no-repeat;
+  background-image: url(../img/1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+}
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
+.portada{
+  height: 650px;
+background-size: 50%;
+ background-repeat: no-repeat;
+  background-image: url(../img/1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
+.portada{
+height: 650px;
+background-size: 50%;
+ background-repeat: no-repeat;
+  background-image: url(../img/1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+}  
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {/*iPAD PRO*/
+  .portada{
+  height: 650px;
+background-size: 40%;
+ background-repeat: no-repeat;
+  background-image: url(../img/1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {/*SURFACE PRO7*/
+  .portada{
+  height: 650px;
+background-size: 45%;
+ background-repeat: no-repeat;
+  background-image: url(../img/1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 853px) and (device-height: 1280px) and (orientation:portrait) {/*ASUS ZENBOOK*/
+.portada{
+  height: 650px;
+background-size: 50%;
+ background-repeat: no-repeat;
+  background-image: url(../img/1.jpg);  
+  position: relative;
+  background-position-x: center;
+display: block;
+  margin: auto;
+}
 }
