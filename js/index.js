@@ -1,5 +1,13 @@
 window.sr = ScrollReveal();
+		sr.reveal('.portada', {
+		duration: 3500, //tiempo
+		//delay:700,
+		origin: 'top', //origen
+		scale: .99,
+		distance: '-0' //distancia
 
+
+	});
 	sr.reveal('.logo', {
 		duration: 2000, //tiempo
 		delay:200,
